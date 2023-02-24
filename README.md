@@ -1,5 +1,5 @@
 # basicProject
 
-# dark/light mode
+# 1. dark/light mode
 
-# Counter App
+# 2. Counter App
