@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+:root {
+  --button: #00b4d8;
+  --text: #e9ecef;
+}
+body {
+  background-color: #22223b;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 60%;
+  height: 60%;
+  background-color: #52b788;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+h1,
+p {
+  color: var(--text);
+}
+h1 {
+  font-family: Arima;
+  font-size: 120px;
+  display: block;
+}
+p {
+  display: block;
+  font-size: 30px;
+}
+.buttons {
+  display: block;
+  background-color: var(--button);
+  color: var(--text);
+  font-family: Arima;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 5px;
+}

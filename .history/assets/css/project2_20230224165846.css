@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+body {
+  background-color: #22223b;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 60%;
+  height: 60%;
+  background-color: #52b788;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}

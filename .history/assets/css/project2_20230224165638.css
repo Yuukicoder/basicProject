@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+body {
+  background-color: #22223b;
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.box {
+  width: 60%;
+  background-color: #52b788;
+}
