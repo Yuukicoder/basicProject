@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+body {
+  height: 100vh;
+}
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  border-radius: 42% 58% 44% 56% / 84% 30% 70% 16%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+}

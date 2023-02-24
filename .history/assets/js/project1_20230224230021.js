@@ -6,6 +6,6 @@ dark.addEventListener("click", function () {
     
 })
 light.addEventListener("click", function () {
-    body.style.background = "white";
+    body.style.background = "#95d5b2";
     
 })

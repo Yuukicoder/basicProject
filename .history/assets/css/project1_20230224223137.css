@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+body {
+  height: 100vh;
+}
+.box {
+  /* height: 30%;
+  width: 30%; */
+  background-color: aqua;
+  border-radius: 42% 58% 44% 56% / 84% 30% 70% 16%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+}

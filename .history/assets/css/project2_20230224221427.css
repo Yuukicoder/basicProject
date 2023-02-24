@@ -10,7 +10,7 @@
   --text: #e9ecef;
 }
 body {
-  background-color: #22223b;
+  background-color: #cdcdce;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -21,12 +21,14 @@ body {
   width: 60%;
   height: 60%;
   background-color: #52b788;
-  border-radius: 10px;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 h1,
 p {
   color: var(--text);
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: ;
 }
 h1 {
   font-family: Arima;
@@ -52,9 +54,5 @@ button {
   border-radius: 10px;
   padding: 5px 5px;
   margin-left: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  transition: 0.5s;
-}
-button:hover {
-  transform: scale(1.025);
+  box-shadow: ;
 }

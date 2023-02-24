@@ -26,7 +26,7 @@ body {
 h1,
 p {
   color: var(--text);
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  text-shadow: ;
 }
 h1 {
   font-family: Arima;
@@ -52,9 +52,7 @@ button {
   border-radius: 10px;
   padding: 5px 5px;
   margin-left: 5px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  transition: 0.5s;
-}
-button:hover {
-  transform: scale(1.025);
+  border-radius: 51px;
+  background: linear-gradient(145deg, #00a2c2, #00c1e7);
+  box-shadow: 26px 26px 52px #0099b8, -26px -26px 52px #00cff8;
 }

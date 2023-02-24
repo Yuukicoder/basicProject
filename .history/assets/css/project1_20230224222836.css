@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+body {
+  height: 100vh;
+}
+.box {
+  height: 30%;
+  width: 30%;
+  background-color: aqua;
+}
